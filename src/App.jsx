@@ -5,7 +5,12 @@ function App() {
     <div>
       <Header/>
       <Main/>
-      <SubMain/>
+      <div className='bg-gradient-to-r from-green-500 to-blue-500'>
+        <p className='mb-4 text-center md:text-4xl text-3xl font-bold text-blue-800'>Pure Hardwork, No Shortcut!</p>
+        <SubMain/>
+      </div>
+      
+      
     </div>
   )
 }
